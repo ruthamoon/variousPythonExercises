@@ -1,3 +1,5 @@
+# source: https://youtu.be/YXPyB4XeYLA
+
 import math
 from tkinter import *
 
@@ -6,8 +8,6 @@ root.title("Simple Calculator")
 
 e = Entry(root,width=35, borderwidth=5)
 e.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
-
-#e.insert(0, "")
 
 def button_click(number):
     #e.delete(0, END)
@@ -66,7 +66,7 @@ def button_divide():
     f_num = int(first_number)
     e.delete(0, END)
 
-#Define Buttons
+# Define Buttons
 
 button1 = Button(root, text="1", padx=40, pady=20, command=lambda: button_click(number= 1))
 button2 = Button(root, text="2", padx=40, pady=20, command=lambda: button_click(number= 2))
@@ -86,7 +86,7 @@ button_subtract = Button(root, text="-", padx=41, pady=20, command= button_subtr
 button_multiply = Button(root, text="*", padx=40, pady=20, command= button_multiply)
 button_divide = Button(root, text="/", padx=41, pady=20, command= button_divide)
 
-#Put the button on the screen
+# Put the button on the screen
 
 button1.grid(row=3, column=0)
 button2.grid(row=3, column=1)

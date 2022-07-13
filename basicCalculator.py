@@ -1,3 +1,4 @@
+# This module gives the basic function of a calculator
 # source: https://youtu.be/YXPyB4XeYLA
 
 import math
